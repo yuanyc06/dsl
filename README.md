@@ -1,7 +1,7 @@
 # Dense and Sparse Labeling (DSL) with Multi-Dimensional Features for Saliency Detection
-This is the software for paper [1]. Please cite [1] if you use this code.
-Author: [Yuchen Yuan](mailto:yyua4798@uni.sydney.edu.au)
-Last updated: Oct 18, 2016
+- This is the software for paper [1]. Please cite [1] if you use this code.
+- Author: [Yuchen Yuan](mailto:yyua4798@uni.sydney.edu.au)
+- Last updated: Oct 18, 2016
 
 ## Installation
 This software is implemented on MatConvNet [2] with CUDA 7.5 and cuDNN v3. CPU-only mode is also supported.
@@ -32,4 +32,5 @@ vl_compilenn('enableGpu', true, 'cudaMethod', 'nvcc', ...
 
 ## References
 > [1] Y. Yuan, C. Li *et al.* "Dense and sparse labeling with multi-dimensional features for saliency detection", *IEEE Trans. Circuits and Syst. Video Technol.*, vol. xx, no. xx, pp. xx-yy, Month. 2016
+
 > [2] A. Vedaldi and K. Lenc, "MatConvNet-convolutional neural networks for MATLAB", *arXiv preprint arXiv*:1412.4564, 2014.
