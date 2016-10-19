@@ -1,11 +1,11 @@
 # Dense and Sparse Labeling (DSL) with Multi-Dimensional Features for Saliency Detection
 This is the software for paper [1]. Please cite [1] if you use this code.
-Author: [Yuchen Yuan](mailto:yuchen.yuan@sydney.edu.au)
+Author: [Yuchen Yuan](mailto:yyua4798@uni.sydney.edu.au)
 Last updated: Oct 18, 2016
 
 ## Installation
 This software is implemented on MatConvNet [2] with CUDA 7.5 and cuDNN v3. CPU-only mode is also supported.
-- **Resources**: The model files and already-generated saliency maps on existing datasets can be downloaded [here](http://pan.baidu.com/s/1c2hzzKc)
+- **Resources**: The model files (required) and already-generated saliency maps on existing datasets can be downloaded [here](http://pan.baidu.com/s/1c2hzzKc)
 - **Supported OS**: This software is tested on 64-bit Ubuntu 14.04 and 64-bit Windows 8.1.
 - **MatConvNet**: Please download [MatConvNet](http://www.vlfeat.org/matconvnet/) to the current path, and compile with [instructions](http://www.vlfeat.org/matconvnet/install/). Below is a compilation example:
 ```
