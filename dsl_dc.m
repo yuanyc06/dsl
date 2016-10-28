@@ -1,4 +1,4 @@
-function dsl_dcn(varargin)
+function dsl_dc(varargin)
 
 opts.expDir = fullfile('result', '3_DC');
 opts.dataDir = 'image';
